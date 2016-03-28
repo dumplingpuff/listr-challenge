@@ -1,0 +1,11 @@
+<h1>{{model.title}}</h1>
+<ul>
+{{#each as model |item|}}
+{{item-snippet item=item}}
+{{/each}}
+</ul>
+{{outlet}}
+
+
+
+{{!-- lists template --}}
